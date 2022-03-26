@@ -24,6 +24,13 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "featuredImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
